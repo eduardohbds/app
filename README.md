@@ -68,3 +68,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+* O React é uma biblioteca JavaScript
+* permite compor UIs complexas a partir de pequenos e isolados códigos chamados “componentes”.
+* O que são componentes React?
+  *  Geralmente, componentes React são como funções JavaScript.  Um **componente** recebe parâmetros, chamados props (abreviação de propriedades), e retorna uma hierarquia de elementos para exibir através do método render.
+* O que é **render**? 
+  * É um método.
+* Todos os componentes React tem que agir como funções puras em relação ao seus props.
+* Independente se você declarar um componente como uma função ou uma classe, ele nunca deve modificar seus próprios props
+* Sempre que queremos que um componente “lembre” que foi modificado usamos os estados (state).
+  * `this.state` deve ser considerado como privado para o componente React que o definiu. 
+* Em **classes JavaScript**, você sempre precisa chamar super ao definir o construtor de uma subclasse. E como estamos falando de componentes deve ser usado **super(props)**
